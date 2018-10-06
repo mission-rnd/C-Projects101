@@ -23,6 +23,9 @@ git push -u origin master
 8. Add the function signature which you expect student needs to test from main, into FunctionHeaders.h
 9. Similary rename spec->SumSpec.cpp to YourQuestionSpec.cpp . And make sure you also rename the test class name present in the test file from SumSpec to YourQuestionSpec. Also rename test cases whatever you write.
 10. Add sample code for your question in Main.cpp (Or whatever file has main method). 
+11. You can add new questions by right clicking on src->SourceFiles. Add New Item-> Visual C++ -> Cpp file.
+12. You can add new test case file by right clicking on spec->Source files. Add New Item -> VisualC++ -> Cpp file. Copy any existing test file contents into the new file. Edit #include at top and class name appropirately. 
+13. Every question + test case file you add. Commit them to git and push them to master. If you are the only one working on the project commit direclty to master, if you are working on a project with 2-3 others contributing, follow github newbranch-> raise PR model. 
 
 ### Files naming rules
 1. Main file should be named as Main<LessonName>.cpp
