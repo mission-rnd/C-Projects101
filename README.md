@@ -12,8 +12,11 @@
 6. Open cmd into the C-NewLessonName folder and run below commands
 ```
 git init
+## This will add all files
 git add .
 ## Above should add only files which are required. src and spec folder , .sln and .gitignore, Check that by doing git status
+## Make sure you dont commit the sdf file, if its present your gitignore is not configured properly,manually remove that file and do 
+## git add .
 git commit -m "Added new lesson"
 git remote add origin https://github.com/mission-rnd/C-NewLessonName.git
 ## Replace origin url with your url
