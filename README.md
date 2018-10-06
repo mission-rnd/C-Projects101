@@ -6,7 +6,7 @@
 2. Change the folder name to the new lesson name. ie C-NewLessonName. Also delete the .git folder which will be present in the folder. 
 3. Go into the new folder and Open the sln file in VS Studio 2013. (Open only in that , or VS 2013 community or express), As if you open in later versions projects will be upgraded/downgraded which we dont want.
 3. Right click on project name and change the name (Rename). ie from C-DummyProject to C-NewLessonName. Also change the src->MainBasics.cpp name to MainNewLessonName.cpp
-![Alt text](relative/path/to/cproject1.png?raw=true "Renaming project in Vs 2013")
+![Alt text](images/cproject1.png?raw=true "Renaming project in Vs 2013")
 4. Save (Ctrl+S) and Close the project and VS Studio 2013. 
 5. Create a new repo in github.com/mission-rnd/ with your new lesson naming. C-NewLessonName should be the repo name. Dont click on add gitignore or add readme. 
 6. Open cmd into the C-NewLessonName folder and run below commands
