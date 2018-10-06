@@ -6,9 +6,14 @@
 2. Change the folder name to the new lesson name. ie C-NewLessonName. Also delete the .git folder which will be present in the folder. 
 3. Go into the new folder and Open the sln file in VS Studio 2013. (Open only in that , or VS 2013 community or express), As if you open in later versions projects will be upgraded/downgraded which we dont want.
 3. Right click on project name and change the name (Rename). ie from C-DummyProject to C-NewLessonName. Also change the src->MainBasics.cpp name to MainNewLessonName.cpp
+
 ![Alt text](images/cproject2.PNG?raw=true "Renaming project in Vs 2013")
+
 4. Save (Ctrl+S) and Close the project and VS Studio 2013. 
 5. Create a new repo in github.com/mission-rnd/ with your new lesson naming. C-NewLessonName should be the repo name. Dont click on add gitignore or add readme. 
+
+![Alt text](images/cproject3.PNG?raw=true "Create a new Repo ")
+
 6. Open cmd into the C-NewLessonName folder and run below commands
 ```
 git init
@@ -29,6 +34,7 @@ git push -u origin master
 11. You can add new questions by right clicking on src->SourceFiles. Add New Item-> Visual C++ -> Cpp file.
 12. You can add new test case file by right clicking on spec->Source files. Add New Item -> VisualC++ -> Cpp file. Copy any existing test file contents into the new file. Edit #include at top and class name appropirately. 
 13. Every question + test case file you add. Commit them to git and push them to master. If you are the only one working on the project commit direclty to master, if you are working on a project with 2-3 others contributing, follow github newbranch-> raise PR model. 
+14. Before commiting remove the actual answers code you wrote. Best way is to maintain 2 copies instructors version and students version. Under no circumstances commit the answer code, and later remove, Some students are smart enough to check the previous commits. If you already commited the code, You need to revert that commit, easier way is to delete the repo and create new one with same name.
 
 Final new lesson should be something like this https://github.com/mission-rnd/C-NewLessonName
 
