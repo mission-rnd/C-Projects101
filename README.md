@@ -25,8 +25,9 @@ git push -u origin master
 ### Files naming rules
 1. Main file should be named as Main<LessonName>.cpp
 2. Every project should have a FunctionHeaders.h file which is included in above file. 
-3. Question files should be QuestionName.cpp
+3. Question files should be QuestionName.cpp (Start with Capital letter)
 4. Every question file should have a respective test file in spec folder. It should be named as QuestionNameSpec.cpp
+5. Test case naming format is question_testCase1 or question_testingparticularconcept. ie Sum_Test1 or Sum_TestIntegerOverflow
 
 ### Some other important points
 
